@@ -1,0 +1,331 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Script = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local WeightAutoFarm = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local DoubleWeightAutoFarm = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local Credits = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local KeySystem = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local text = Instance.new("TextLabel")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local KeyType = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local Check = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+Script.Name = "Script"
+Script.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Script.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Script.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = Script
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BackgroundTransparency = 0.500
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.258114755, 0, 0.357376695, 0)
+Main.Size = UDim2.new(0, 359, 0, 231)
+Main.Visible = false
+
+UICorner.Parent = Main
+
+WeightAutoFarm.Name = "WeightAutoFarm"
+WeightAutoFarm.Parent = Main
+WeightAutoFarm.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+WeightAutoFarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WeightAutoFarm.BorderSizePixel = 0
+WeightAutoFarm.Position = UDim2.new(0, 0, 0.484471291, 0)
+WeightAutoFarm.Size = UDim2.new(0, 193, 0, 37)
+WeightAutoFarm.Font = Enum.Font.SourceSans
+WeightAutoFarm.Text = "Weight AutoFarm (MUST EQUIP IT)"
+WeightAutoFarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+WeightAutoFarm.TextScaled = true
+WeightAutoFarm.TextSize = 14.000
+WeightAutoFarm.TextWrapped = true
+
+TextButton.Parent = WeightAutoFarm
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(1.04967189, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 36, 0, 37)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = " "
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_2.Parent = TextButton
+
+UICorner_3.Parent = WeightAutoFarm
+
+UIAspectRatioConstraint.Parent = WeightAutoFarm
+UIAspectRatioConstraint.AspectRatio = 5.216
+
+UITextSizeConstraint.Parent = WeightAutoFarm
+UITextSizeConstraint.MaxTextSize = 36
+
+DoubleWeightAutoFarm.Name = "DoubleWeightAutoFarm"
+DoubleWeightAutoFarm.Parent = Main
+DoubleWeightAutoFarm.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+DoubleWeightAutoFarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DoubleWeightAutoFarm.BorderSizePixel = 0
+DoubleWeightAutoFarm.Position = UDim2.new(0, 0, 0.265660763, 0)
+DoubleWeightAutoFarm.Size = UDim2.new(0, 193, 0, 37)
+DoubleWeightAutoFarm.Font = Enum.Font.SourceSans
+DoubleWeightAutoFarm.Text = "Double Weight AutoFarm (MUST EQUIP IT)"
+DoubleWeightAutoFarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+DoubleWeightAutoFarm.TextScaled = true
+DoubleWeightAutoFarm.TextSize = 14.000
+DoubleWeightAutoFarm.TextWrapped = true
+
+TextButton_2.Parent = DoubleWeightAutoFarm
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(1.05263162, 0, 0, 0)
+TextButton_2.Size = UDim2.new(0, 36, 0, 37)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = " "
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_4.Parent = TextButton_2
+
+UICorner_5.Parent = DoubleWeightAutoFarm
+
+UIAspectRatioConstraint_2.Parent = DoubleWeightAutoFarm
+UIAspectRatioConstraint_2.AspectRatio = 5.216
+
+UITextSizeConstraint_2.Parent = DoubleWeightAutoFarm
+UITextSizeConstraint_2.MaxTextSize = 36
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.0788732395, 0, -0.000387783715, 0)
+Credits.Size = UDim2.new(0, 311, 0, 45)
+Credits.Font = Enum.Font.SourceSansBold
+Credits.Text = "Script by riri"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+UIAspectRatioConstraint_3.Parent = Credits
+UIAspectRatioConstraint_3.AspectRatio = 6.911
+
+UITextSizeConstraint_3.Parent = Credits
+UITextSizeConstraint_3.MaxTextSize = 44
+
+UIAspectRatioConstraint_4.Parent = Main
+UIAspectRatioConstraint_4.AspectRatio = 1.554
+
+KeySystem.Name = "KeySystem"
+KeySystem.Parent = Script
+KeySystem.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KeySystem.BackgroundTransparency = 0.500
+KeySystem.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KeySystem.BorderSizePixel = 0
+KeySystem.Position = UDim2.new(0.444906443, 0, 0.293956041, 0)
+KeySystem.Size = UDim2.new(0, 339, 0, 198)
+
+UICorner_6.Parent = KeySystem
+
+text.Name = "text"
+text.Parent = KeySystem
+text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+text.BackgroundTransparency = 1.000
+text.BorderColor3 = Color3.fromRGB(0, 0, 0)
+text.BorderSizePixel = 0
+text.Position = UDim2.new(0.185840711, 0, 0.0353535339, 0)
+text.Size = UDim2.new(0, 200, 0, 50)
+text.Font = Enum.Font.SourceSansBold
+text.Text = "the key is riri"
+text.TextColor3 = Color3.fromRGB(255, 255, 255)
+text.TextScaled = true
+text.TextSize = 14.000
+text.TextWrapped = true
+
+UIAspectRatioConstraint_5.Parent = text
+UIAspectRatioConstraint_5.AspectRatio = 4.000
+
+UITextSizeConstraint_4.Parent = text
+UITextSizeConstraint_4.MaxTextSize = 50
+
+KeyType.Name = "KeyType"
+KeyType.Parent = KeySystem
+KeyType.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KeyType.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KeyType.BorderSizePixel = 0
+KeyType.Position = UDim2.new(0.185840711, 0, 0.373737365, 0)
+KeyType.Size = UDim2.new(0, 200, 0, 50)
+KeyType.Font = Enum.Font.SourceSans
+KeyType.PlaceholderText = "Type key here"
+KeyType.Text = ""
+KeyType.TextColor3 = Color3.fromRGB(252, 252, 252)
+KeyType.TextScaled = true
+KeyType.TextSize = 14.000
+KeyType.TextWrapped = true
+
+UICorner_7.Parent = KeyType
+
+UIAspectRatioConstraint_6.Parent = KeyType
+UIAspectRatioConstraint_6.AspectRatio = 4.000
+
+UITextSizeConstraint_5.Parent = KeyType
+UITextSizeConstraint_5.MaxTextSize = 14
+
+Check.Name = "Check"
+Check.Parent = KeySystem
+Check.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Check.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Check.BorderSizePixel = 0
+Check.Position = UDim2.new(0.185840711, 0, 0.686868668, 0)
+Check.Size = UDim2.new(0, 200, 0, 50)
+Check.Font = Enum.Font.SourceSansBold
+Check.Text = "Check"
+Check.TextColor3 = Color3.fromRGB(255, 255, 255)
+Check.TextScaled = true
+Check.TextSize = 14.000
+Check.TextWrapped = true
+
+UICorner_8.Parent = Check
+
+UIAspectRatioConstraint_7.Parent = Check
+UIAspectRatioConstraint_7.AspectRatio = 4.000
+
+UITextSizeConstraint_6.Parent = Check
+UITextSizeConstraint_6.MaxTextSize = 50
+
+UIAspectRatioConstraint_8.Parent = KeySystem
+UIAspectRatioConstraint_8.AspectRatio = 1.712
+
+-- Scripts:
+
+local function NHWIOY_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	frame = script.Parent
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+	
+	print("Loaded!")
+end
+coroutine.wrap(NHWIOY_fake_script)()
+local function MKITDS_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	wait()
+	if game:IsLoaded() then
+		local Turned = false
+		local Playerr = game:WaitForChild("Players").LocalPlayer.Name
+	
+	
+		script.Parent.Activated:Connect(function()
+			if Turned == false then
+				Turned = true
+				script.Parent.BackgroundColor3 = Color3.new(0.14902, 1, 0)
+				while Turned == true do
+					game.ReplicatedStorage.addStrength:FireServer(workspace:WaitForChild(Playerr).Weight.Handle, 1)
+					wait(.01)
+				end		
+			else
+				Turned = false
+				script.Parent.BackgroundColor3 = Color3.new(255, 0, 0)
+			end
+		end)
+	end
+end
+coroutine.wrap(MKITDS_fake_script)()
+local function MPPWOO_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	wait()
+	if game:IsLoaded() then
+		local Turned = false
+		local Playerr = game:WaitForChild("Players").LocalPlayer.Name
+	
+	
+		script.Parent.Activated:Connect(function()
+			if Turned == false then
+				Turned = true
+				script.Parent.BackgroundColor3 = Color3.new(0.14902, 1, 0)
+				while Turned == true do
+					game.ReplicatedStorage.addStrength:FireServer(workspace:WaitForChild(Playerr)["Double Weight"].Handle, 1)
+					wait(.01)
+				end
+			else
+				Turned = false
+				script.Parent.BackgroundColor3 = Color3.new(255, 0, 0)
+			end
+		end)
+	end
+end
+coroutine.wrap(MPPWOO_fake_script)()
+local function MNEMF_fake_script() -- Check.LocalScript 
+	local script = Instance.new('LocalScript', Check)
+
+	script.Parent.Activated:Connect(function()
+		if script.Parent.Parent.KeyType.Text == "riri" then
+			script.Parent.Parent.Visible = false
+			script.Parent.Parent.Parent.Main.Visible = true
+			local sfx = Instance.new("Sound", script.Parent.Parent.Parent)
+			sfx.SoundId = "rbxassetid://3422389728"
+			sfx:Play()
+			wait(3)
+			sfx:Remove()
+			else
+			script.Parent.Parent.text.Text = "mf put the wrong key"
+			script.Parent.Parent.text.TextColor3 = Color3.new(1, 0, 0.0156863)
+			local sfx = Instance.new("Sound", script.Parent.Parent.Parent)
+			sfx.SoundId = "rbxassetid://3422389728"
+			sfx:Play()
+			wait(3)
+			sfx:Remove()	
+		wait(1.5)
+			script.Parent.Parent.text.Text = "Join .gg/ggcjzQ8EXv for the key"
+			script.Parent.Parent.text.TextColor3 = Color3.new(255, 255, 255)
+		end
+	end)
+end
+coroutine.wrap(MNEMF_fake_script)()
+local function MAHYIO_fake_script() -- KeySystem.LocalScript 
+	local script = Instance.new('LocalScript', KeySystem)
+
+	frame = script.Parent
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(MAHYIO_fake_script)()
