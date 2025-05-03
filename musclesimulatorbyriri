@@ -301,7 +301,7 @@ local function MNEMF_fake_script() -- Check.LocalScript
 			script.Parent.Parent.Visible = false
 			script.Parent.Parent.Parent.Main.Visible = true
 			local sfx = Instance.new("Sound", script.Parent.Parent.Parent)
-			sfx.SoundId = "rbxassetid://3422389728"
+			sfx.SoundId = "rbxassetid://138971241530754"
 			sfx:Play()
 			wait(3)
 			sfx:Remove()
