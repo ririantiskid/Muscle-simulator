@@ -314,7 +314,7 @@ local function MNEMF_fake_script() -- Check.LocalScript
 			wait(3)
 			sfx:Remove()	
 		wait(1.5)
-			script.Parent.Parent.text.Text = "Join .gg/ggcjzQ8EXv for the key"
+			script.Parent.Parent.text.Text = "STOP ENTERING WRONG KEY for the key"
 			script.Parent.Parent.text.TextColor3 = Color3.new(255, 255, 255)
 		end
 	end)
