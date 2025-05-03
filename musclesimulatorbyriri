@@ -306,7 +306,7 @@ local function MNEMF_fake_script() -- Check.LocalScript
 			wait(3)
 			sfx:Remove()
 			else
-			script.Parent.Parent.text.Text = "mf put the wrong key"
+			script.Parent.Parent.text.Text = "Bro cant spell"
 			script.Parent.Parent.text.TextColor3 = Color3.new(1, 0, 0.0156863)
 			local sfx = Instance.new("Sound", script.Parent.Parent.Parent)
 			sfx.SoundId = "rbxassetid://96184187400213"
@@ -314,7 +314,7 @@ local function MNEMF_fake_script() -- Check.LocalScript
 			wait(3)
 			sfx:Remove()	
 		wait(1.5)
-			script.Parent.Parent.text.Text = "STOP ENTERING WRONG KEY for the key"
+			script.Parent.Parent.text.Text = "STOP ENTERING WRONG KEY"
 			script.Parent.Parent.text.TextColor3 = Color3.new(255, 255, 255)
 		end
 	end)
